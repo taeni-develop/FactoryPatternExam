@@ -9,6 +9,7 @@ public class FactoryClothesPointCalculateService implements PointCalculateServic
 
     @Override
     public int calculatePoint(PointCalculate pointCalculate) {
+        System.out.println("");
         return (int) Math.ceil(pointCalculate.getPrice() * 0.05);
     }
 
